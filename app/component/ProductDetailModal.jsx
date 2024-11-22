@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import { Icon } from "@iconify/react"; // Import Iconify
 import { useState } from "react";
 
 const ProductDetailModal = ({ product, closeModal }) => {
@@ -14,7 +13,7 @@ const ProductDetailModal = ({ product, closeModal }) => {
           onClick={closeModal}
           className="absolute top-4 right-4 text-gray-600 text-3xl"
         >
-          <Icon icon="mdi:close" />
+          X
         </button>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
