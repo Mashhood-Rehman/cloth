@@ -39,7 +39,7 @@ const ProductCard = () => {
           }}
           className="text-2xl font-bold mt-36 text-gray-800 my-6"
         >
-          Men's Wear
+          Gents Wear
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
           {menProducts.map((product) => (
@@ -84,7 +84,7 @@ const ProductCard = () => {
             fontWeight: "700", // This gives it a bold, cursive effect
           }}
         >
-          Women's Wear
+          Womens Wear
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
           {womenProducts.map((product) => (
