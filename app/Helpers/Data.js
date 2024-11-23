@@ -16,7 +16,7 @@ export const products = [
       "Lining: None",
       "Material: 50% Rayon 45% Polyester 5% Spandex",
     ],
-    category: "men", // Example category
+    category: "men",
   },
   {
     id: 2,
